@@ -6,6 +6,7 @@
 #include "MoveObject.h"
 class Game {
 public:
+	Game();
 	Game(int maxAmountOfObjects);
 	~Game();
 	void putObject(Object* o);
@@ -15,8 +16,7 @@ public:
 private: 
 	Object** objects;
 	int objectsCount = 0;
-	int countMoveInArea = 0;
-	int countMoveInAreaAngle = 0;
+	int maxSize;
 };
 
 #endif //GAME_H
