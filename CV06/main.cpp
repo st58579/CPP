@@ -6,15 +6,15 @@ using namespace std;
 
 int main() {
     GrowingContainer<string, 5> gc{};
-    gc.add("Zero str");
-    gc.add("First str");
-    gc.add("Second str");
-    gc.add("Third str");
-    gc.add("Fourth str");
-    gc.add("Fifth str");
-    gc.add("Sixth str");
-    gc.add("Seventh str");
-    gc.add("Eights str");
+    gc.add("0 str");
+    gc.add("1 str");
+    gc.add("2 str");
+    gc.add("3 str");
+    gc.add("4 str");
+    gc.add("5 str");
+    gc.add("6 str");
+    gc.add("7 str");
+    gc.add("8 str");
 
     cout << gc[3] << endl;
     cout << gc[7] << endl;
