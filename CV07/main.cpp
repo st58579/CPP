@@ -1,84 +1,10 @@
-#include <iostream>
 #include <fstream>
 #include <string>
 #include <exception>
-
-using namespace std;
+#include "Person.h"
 
 static const string path = "../file.txt";
 static const string path_bin = "../file.bin";
-
-struct Date {
-public:
-    Date() : Date(0, 0, 0) {};
-
-    Date(int day, int month, int year) : day(day), month(month), year(year) {};
-private:
-    int day, month, year;
-
-    friend ostream &operator<<(ostream &os, const Date &date);
-
-    friend istream &operator>>(istream &is, Date &date);
-};
-
-ostream &operator<<(ostream &os, const Date &date) {
-    os << date.day << " " << date.month << " " << date.year;
-    return os;
-}
-
-istream &operator>>(istream &is, Date &date) {
-    is >> date.day >> date.month >> date.year;
-    return is;
-}
-
-struct Address {
-public:
-    Address() : Address("", "", "") {};
-
-    Address(string street, string city, string ZIP) : street(street), city(city), ZIP(ZIP) {};
-private:
-    string street, city, ZIP;
-
-    friend ostream &operator<<(ostream &os, const Address &address);
-
-    friend istream &operator>>(istream &is, Address &address);
-};
-
-ostream &operator<<(ostream &os, const Address &address) {
-    os << address.street << " " << address.city << " " << address.ZIP;
-    return os;
-}
-
-istream &operator>>(istream &is, Address &address) {
-    is >> address.street >> address.city >> address.ZIP;
-    return is;
-}
-
-struct Person {
-public:
-    Person() : Person(("asd"), ("asd"), (Address()), (Date())) {};
-
-    Person(string name, string surname, Address address, Date date) : name(name), surname(surname), address(address),
-                                                                      birthDate(date) {};
-private:
-    string name, surname;
-    Address address;
-    Date birthDate;
-
-    friend ostream &operator<<(ostream &os, const Person &address);
-
-    friend istream &operator>>(istream &is, Person &person);
-};
-
-ostream &operator<<(ostream &os, const Person &person) {
-    os << person.name << " " << person.surname << " " << person.address << " " << person.birthDate << endl;
-    return os;
-}
-
-istream &operator>>(istream &is, Person &person) {
-    is >> person.name >> person.surname >> person.address >> person.birthDate;
-    return is;
-}
 
 
 void write() {
