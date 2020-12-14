@@ -104,7 +104,7 @@ void Matrix<T>::setFrom(T* array) {
 template<typename T>
 T& Matrix<T>::get(int row, int col) {
     if (row < rowCount && col < colCount) {
-        return mtr[row][col]; //????????/
+        return mtr[row][col]; // ?
     }
     else {
         throw std::invalid_argument{ "Invalid index" };
@@ -114,7 +114,7 @@ T& Matrix<T>::get(int row, int col) {
 template<typename T>
 const T& Matrix<T>::get(int row, int col) const {
     if (row < rowCount && col < colCount) {
-        return mtr[row][col]; // ????????
+        return &mtr[row][col]; // &?
     }
     else {
         throw std::invalid_argument{ "Invalid index" };
@@ -125,7 +125,7 @@ const T& Matrix<T>::get(int row, int col) const {
 template<typename T>
 template<typename R>
 Matrix<R> Matrix<T>::retype() {
-    Matrix<R> matrix = new Matrix<R>(rowCount, colCount);
+    Matrix<R> matrix = new Matrix<R>(rowCount, colCount); // Matrix<double> * to Matrix<double> || int 2x chyba
     for (int i = 0; i < rowCount; ++i) {
         for (int j = 0; j < colCount; ++j) {
             matrix.set(i, j,(R)mtr[i][j]);
@@ -154,7 +154,7 @@ bool Matrix<T>::isEqual(const Matrix<T>& m) const {
 
 template<typename T>
 Matrix<T> Matrix<T>::transpose() const {
-    Matrix<T> transposed = new Matrix<T>(colCount, rowCount);
+    Matrix<T> transposed = new Matrix<T>(colCount, rowCount); //Matrix<int>* to Matrix<int>
     for (int i = 0; i < rowCount; ++i) {
         for (int j = 0; j < colCount; ++j) {
             transposed.set(j,i, mtr[i][j]);
