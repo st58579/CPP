@@ -1,8 +1,0 @@
-﻿  JsonClient.cpp
-D:\Studium\FEI_C++\semestralka\JsonLibrary\JsonLibrary\api.h(41,45): error C2061: синтаксическая ошибка: идентификатор "Value"
-D:\Studium\FEI_C++\semestralka\JsonLibrary\JsonLibrary\api.h(46,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\Studium\FEI_C++\semestralka\JsonLibrary\JsonLibrary\api.h(46,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Studium\FEI_C++\semestralka\JsonLibrary\JsonLibrary\api.h(46,25): error C2238: непредвиденные лексемы перед ";"
-D:\Studium\FEI_C++\semestralka\JsonLibrary\JsonLibrary\api.h(49,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\Studium\FEI_C++\semestralka\JsonLibrary\JsonLibrary\api.h(49,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Studium\FEI_C++\semestralka\JsonLibrary\JsonLibrary\api.h(49,14): error C2238: непредвиденные лексемы перед ";"
