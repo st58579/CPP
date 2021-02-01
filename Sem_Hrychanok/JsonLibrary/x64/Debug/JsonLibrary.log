@@ -1,0 +1,55 @@
+﻿  pch.cpp
+  api.cpp
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\api.cpp(108,34): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\api.cpp(148,34): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(13,1): error C2440: delete: невозможно преобразовать "T" в "void*"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(13,19): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(13): message : во время компиляции функции-члена класс шаблон "Node<T>::~Node(void)"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\api.cpp(190): message : выполняется компиляция ссылки на экземпляр шаблон функции "Node<T>::~Node(void)"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(53): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Node<T>"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(49): message : во время компиляции функции-члена класс шаблон "DynamicArray<KeyValuePair>::~DynamicArray(void)"
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\api.h(135): message : выполняется компиляция ссылки на экземпляр шаблон функции "DynamicArray<KeyValuePair>::~DynamicArray(void)"
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\api.h(134): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "DynamicArray<KeyValuePair>"
+  dllmain.cpp
+  parser.cpp
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(13,1): error C2440: delete: невозможно преобразовать "T" в "void*"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(13,19): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(13): message : во время компиляции функции-члена класс шаблон "Node<T>::~Node(void)"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\parser.cpp(152): message : выполняется компиляция ссылки на экземпляр шаблон функции "Node<T>::~Node(void)"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(53): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Node<T>"
+          with
+          [
+              T=KeyValuePair
+          ]
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\DynamicArray.h(49): message : во время компиляции функции-члена класс шаблон "DynamicArray<KeyValuePair>::~DynamicArray(void)"
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\api.h(135): message : выполняется компиляция ссылки на экземпляр шаблон функции "DynamicArray<KeyValuePair>::~DynamicArray(void)"
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonLibrary\api.h(134): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "DynamicArray<KeyValuePair>"
+  Создание кода...

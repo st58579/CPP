@@ -1,3 +1,21 @@
-﻿  JsonClient.cpp
-  JsonClient.vcxproj -> D:\Studium\FEI_C++\SemestralniPrace_Hrychanok\x64\Debug\JsonClient.exe
+﻿  EvidenceStudentu.cpp
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(34,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(36,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(38,40): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(40,38): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(42,35): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(43,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(44,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(45,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(46,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(48,41): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(53,59): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\JsonClient\EvidenceStudentu.cpp(65,31): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  JsonClient.cpp
+  Student.cpp
+  Создание кода...
+  JsonClient.vcxproj -> D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\x64\Debug\JsonClient.exe
+  Не найден файл: JsonLibrary.dll
   Скопировано файлов: 0.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: выход из команды "xcopy /y /d "D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\x64\Debug\JsonLibrary.dll" "D:\Studium\FEI_C++\gitLocal\CPP\SemestralniPrace_Hrychanok\x64\Debug\"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :VCEnd" с кодом 4.

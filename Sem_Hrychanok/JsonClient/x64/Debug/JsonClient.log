@@ -1,0 +1,18 @@
+﻿  EvidenceStudentu.cpp
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(34,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(36,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(38,40): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(40,38): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(42,35): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(44,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(46,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(48,41): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(53,29): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(66,31): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\EvidenceStudentu.cpp(75,42): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  JsonClient.cpp
+  Student.cpp
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\Student.cpp(73,68): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Studium\FEI_C++\Sem_Hrychanok\JsonClient\Student.cpp(90,39): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+LINK : fatal error LNK1104: не удается открыть файл "JsonLibrary.lib"
